@@ -2,7 +2,7 @@
 	<remove xpath="/windows/window[@name='mainMenuNews']/rect"/>
 	<remove xpath="/windows/window[@name='mainMenuPlayerName']/label"/>
 	<remove xpath="/windows/window[@name='mainMenuVersion']/label"/>
-	<!--<remove xpath="/windows/window[@name='menuBackground']/video[@name='videoTexture']"/>--><!--mini edit-->
+	<remove xpath="/windows/window[@name='menuBackground']/video[@name='videoTexture']"/>
 	<remove xpath="/windows/window[@name='mainMenu']/texture[@name='gameLogo']"/>
 	
 	<append xpath="/windows">
@@ -20,5 +20,5 @@
 	<remove xpath="/windows/window[@name='mainMenu']/grid/mainmenubutton[@name='btnCredits']"/>
 	<remove xpath="/windows/window[@name='mainMenu']/grid/mainmenubutton[@name='btnNews']"/>
 	
-    <!--<setattribute xpath="/windows/window[@name='menuBackground']/texture" name="texture">@modfolder:UIAtlases/bg-forest.jpg</setattribute>--><!--mini edit-->
+    <setattribute xpath="/windows/window[@name='menuBackground']/texture" name="texture">@modfolder:UIAtlases/bg-forest.jpg</setattribute>
 </config>
