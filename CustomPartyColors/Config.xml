@@ -1,0 +1,7 @@
+<Config>
+	<default r="192" g="192" b="192"/>
+	<player id="EOS_0002f1ccdcb146bdb6bff6b4b8cab31f" r="128" g="32" b="32"/>
+	<player id="EOS_0002117684784b17abb3e1f705e3f40f" r="32" g="32" b="32"/>
+	<player id="EOS_0002dd7e89c140dab0bf18d98c765bd4" r="32" g="32" b="255"/>
+	<player id="EOS_000279bb48c746e5b9947bdb56baea72" r="255" g="32" b="255"/>
+</Config>

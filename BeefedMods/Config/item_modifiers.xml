@@ -1,0 +1,74 @@
+<config>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMeleeRadRemover']/effect_group">
+		<passive_effect name="EntityDamage" operation="perc_add" value=".05,.10,.15,.20,.25,.30" tier="1,2,3,4,5,6"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorTreasureHunter']/effect_group[1]">
+		<passive_effect name="LootStage" operation="perc_add" value=".02,.04,.06,.08,.10,.12" tier="1,2,3,4,5,6"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunDrumMagazineExtender']/@installable_tags">,magazine,turretRanged</append>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunBipod']/@blocked_tags">noMods</set>	
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modMeleeFiremansAxeMod']" name="installable_tags">melee</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modMeleeFiremansAxeMod']" name="modifier_tags">knockback</setattribute>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeTemperedBlade']/@installable_tags">,tool</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeTemperedBlade']/effect_group">
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value=".01,.02,.03,.04,.05,.06" tier="1,2,3,4,5,6"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value=".01,.02,.03,.04,.05,.06" tier="1,2,3,4,5,6" tags="perkMiner69r"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeStructuralBrace']/effect_group">
+		<passive_effect name="AttacksPerMinute" value=".02,.04,.06,.08,.10,.12" tier="1,2,3,4,5,6"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value=".02,.04,.06,.08,.10,.12" tier="1,2,3,4,5,6" tags="perkMiner69r"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeDiamondTip']/effect_group">
+		<passive_effect name="AttacksPerMinute" value=".03,.06,.09,.12,.13,.16" tier="1,2,3,4,5,6"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value=".03,.06,.09,.12,.13,.16" tier="1,2,3,4,5,6" tags="perkMiner69r"/>
+	</append>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/effect_group/passive_effect[@name='EntityDamage']/@value">.15</set>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/effect_group[@name='mod effects']/passive_effect/requirement[@name='ProgressionLevel']" name="operation">GT</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/effect_group[@name='mod effects']/passive_effect/requirement[@name='ProgressionLevel']" name="value">0</setattribute>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/effect_group/passive_effect[@name='MaxRange']/@value">-.2</set>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/effect_group[@name='mod effects']">
+		<passive_effect name="SpreadDegreesVertical" operation="perc_add" value="-.1"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="perc_add" value="-.1"/>
+	</append>
+	<set xpath="/item_modifiers/item_modifier[starts-with(@name,'modGunScope')]/effect_group[@name='mod effects']/passive_effect[@name='SpreadMultiplierAiming']/@value">-.25</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']/effect_group/passive_effect[@name='WeaponHandling']/@value">.4</set>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']/effect_group[@name='mod effects']">
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.3" tags="perkGunslinger,perkDeadEye,perkMachineGunner,perkArchery,admin"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.15" tags="perkDeadEye,perkArchery,admin">
+			<requirement name="ItemHasTags" tags="perkDeadEye,crossbow"/>
+		</passive_effect>
+	</append>
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupSemi']/effect_group/passive_effect[@name='IncrementalSpreadMultiplier']"/>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupSemi']/@installable_tags">,firingModeSemi</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupSemi']/effect_group">
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.15"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.15"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupBurst3']/effect_group">
+		<passive_effect name="WeaponHandling" operation="perc_add" value=".4"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="perc_add" value="-.35"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="perc_add" value="-.35"/>
+	</append>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupAutomatic']/effect_group/passive_effect[@name='RoundsPerMinute']" name="value">.25</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunBarrelExtender']/effect_group/passive_effect[@name='DamageFalloffRange']" name="value">1</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunBarrelExtender']/effect_group/passive_effect[@name='MaxRange']" name="value">1</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']/effect_group/passive_effect[@name='KickDegreesHorizontalMin']" name="value">-.25</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']/effect_group/passive_effect[@name='KickDegreesHorizontalMax']" name="value">-.25</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunBipod']/effect_group/passive_effect[@name='SpreadMultiplierAiming' and @value='-.08']" name="value">-.5</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunBipod']/effect_group/passive_effect[@name='SpreadMultiplierAiming' and @value='-.09']" name="value">-.25</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modShotgunSawedOffBarrel']" name="installable_tags">barrelAttachments,turretRanged</setattribute>
+	<append xpath="/item_modifiers/item_modifier[@name='modShotgunSawedOffBarrel']/effect_group">
+		<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".15"/>
+	</append>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']" name="installable_tags">longShaft</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']" name="installable_tags">longShaft</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']" name="installable_tags">longShaft</setattribute>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunFlashlight']/effect_group">
+		<passive_effect name="WeaponHandling" operation="perc_add" value=".5"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunRetractingStock']/effect_group">
+		<passive_effect name="WeaponHandling" operation="perc_add" value=".2">
+			<requirement name="!HasBuff" buff="buffHoldBreathAiming01"/>
+		</passive_effect>
+	</append>
+</config>

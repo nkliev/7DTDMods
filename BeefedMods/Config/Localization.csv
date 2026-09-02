@@ -1,0 +1,20 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,russian
+modGunMeleeRadRemoverDesc,item_modifiers,mod,,,"+25% damage to all radiated.\nWill disable the regeneration ability of radiated zombies for 90 seconds.","+25% урона всем облученным.\nБлокирует регенеративные способности облученных зомби на 90 секунд."
+modMeleeFiremansAxeMod,item_modifiers,Mod,,,Fireman's Blade Mod,Модификация «Пожарное лезвие»
+perkFiremansAlmanacAxesDesc,progression,perk  book,,,Craft the fireman's blade mod.,Создание модификации «Пожарное лезвие».
+perkFiremansAlmanacAxesLongDesc,progression,perk  book,,,"Axe Mod: Craft the fireman's blade modification. Deal 25% more damage to blocks, but 25% less damage to enemies.","Модификация топора. Создание модификации «Пожарное лезвие». Наносит на 25% больше урона по блокам, но на 25% меньше урона врагам."
+perkUrbanCombatCompleteDesc,progression,perk  book,,,Silencers deal 15% more damage.,Глушители наносят на 15% больше урона.
+perkUrbanCombatCompleteLongDesc,progression,perk  book,,,The silencer: Firearms with silencers deal 15% more damage.,Глушитель: урон от огнестрельного оружия с глушителем увеличен на 15%.
+modGunSoundSuppressorSilencerDesc,item_modifiers,mod,,,A sound suppressor greatly reduces the firing sound.,"Глушитель значительно снижает громкость выстрела."
+modGunTriggerGroupSemiDesc,item_modifiers,mod,,,Modifies the trigger group to fire semi-auto only.,"Переводит спусковой механизм в режим стрельбы одиночными патронами."
+modGunTriggerGroupBurst3Desc,item_modifiers,mod,,,Modifies the trigger group to fire 3 round bursts.,"Переводит спусковой механизм в режим автоматической стрельбы с отсечкой в три патрона."
+modGunTriggerGroupAutomaticDesc,item_modifiers,mod,,,Modifies the trigger group to fire full auto only.,"Переводит спусковой механизм в режим автоматического огня."
+modShotgunSawedOffBarrel,item_modifiers,mod,,,Sawed-Off Mod,Модификация «Обрез»
+modShotgunSawedOffBarrelSchematic,item_modifiers,Mod,,,Sawed-off Mod Schematic,Схема модификации «Обрез»
+modMeleeClubBarbedWireDesc,item_modifiers,mod,,,"20% chance to cause bleeding damage, 40% with power attacks.","С вероятностью 20% вызывает кровотечение, 40% при силовых атаках."
+modMeleeClubMetalSpikesDesc,item_modifiers,mod,,,Each successive hit lowers enemies armor rating 20%.,Каждое успешное попадание снижает показатель брони противника на 20%.\nМожно установить на дубины.
+modMeleeClubMetalChainDesc,item_modifiers,Mod,,,10% chance to knock down opponents.,,С вероятностью 10% позволяет сбить противника с ног.
+modGunShotgunTubeExtenderMagazine,item_modifiers,Mod,,,Tube Extender Mod,Модификация ствола «Увеличенный магазин»
+modGunShotgunTubeExtenderMagazineDesc,item_modifiers,Mod,,,Increases tube magazine capacity.,Увеличивает емкость трубчатого магазина.
+perkShotgunMessiahMagazineDesc,progression,perk  book,,,You can craft tube extender mods.,Создание модификаций для удлинения трубчатого магазина.
+perkShotgunMessiahMagazineLongDesc,progression,perk  book,,,Tube Extender Mod: Extend how much ammo your firearm holds. You can craft tube extender mods.,Удлинитель магазина. Увеличьте боезапас своего оружия. Создание модификаций для удлинения трубчатого магазина.

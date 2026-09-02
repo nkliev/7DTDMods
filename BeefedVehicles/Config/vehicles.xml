@@ -1,0 +1,18 @@
+<config>
+	<!--VelocityMaxForward, VelocityMaxBackward, VelocityMaxTurboForward, VelocityMaxTurboBackward
+	VelocityMaxForward=BASE_SPEED*1.5
+	VelocityMaxBackward=VelocityMaxForward*0.75
+	VelocityMaxTurboForward=VelocityMaxForward*1.5
+	VelocityMaxTurboBackward=VelocityMaxBackward
+	-->
+	<set xpath="//vehicle[@name='vehicleBicycle']/property[@name='velocityMax_turbo']/@value">9.0, 6.75, 13.5, 6.75</set><!--6, 4, 8.5, 4-->
+	<set xpath="//vehicle[@name='vehicleMinibike']/property[@name='velocityMax_turbo']/@value">10.5, 7.875, 15.75, 7.875</set><!--7, 4, 9.2, 4-->
+	<set xpath="//vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax_turbo']/@value">15.0, 11.25, 22.5, 11.25</set><!--9.8, 6, 14, 8-->
+	<set xpath="//vehicle[@name='vehicleTruck4x4']/property[@name='velocityMax_turbo']/@value">13.5, 10.125, 20.25, 10.125</set><!--10, 8, 14, 10-->
+	<set xpath="//vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax_turbo']/@value">22.5, 16.875, 33.75, 16.875</set><!--9, 9, 15, 9-->
+	<set xpath="//vehicle[@name='vehicleMotorcycle' or @name='vehicleTruck4x4']/property[@name='steerRate']/@value">180</set>
+	<set xpath="//vehicle[@name='vehicleMotorcycle' or @name='vehicleTruck4x4']/property[@name='steerCenteringRate']/@value">25</set>
+	<set xpath="//vehicle[@name='vehicleMotorcycle' or @name='vehicleTruck4x4']/property[@name='tiltAngleMax']/@value">25</set>
+	<set xpath="//vehicle[@name='vehicleMotorcycle' or @name='vehicleTruck4x4']/property[@name='tiltDampening']/@value">.5</set>
+	<set xpath="//vehicle[@name='vehicleMotorcycle' or @name='vehicleTruck4x4']/property[@name='tiltDampenThreshold']/@value">16</set>
+</config>

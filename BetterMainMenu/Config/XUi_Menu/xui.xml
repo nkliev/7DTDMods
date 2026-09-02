@@ -1,0 +1,5 @@
+<config>
+	<append xpath="//window_group[@name='mainMenu']">
+		<window name="mainMenuLogo"/>
+	</append>
+</config>

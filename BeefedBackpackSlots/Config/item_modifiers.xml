@@ -1,0 +1,10 @@
+<config>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">2</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">2</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">4</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">4</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">6</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">6</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorQuadStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">8</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorQuadStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">8</set>
+</config>

@@ -1,0 +1,5 @@
+<configs>
+	<setattribute xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='AttacksPerMinute' and @operation='base_set']" name="value">60</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='AttacksPerMinute' and @operation='base_set']" name="value">60</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='AttacksPerMinute' and @operation='base_set']" name="value">60</setattribute>
+</configs>

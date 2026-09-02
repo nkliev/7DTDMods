@@ -1,0 +1,14 @@
+<config>
+	<set xpath="/materials/material[@id='Mplastics']/property[@name='damage_category']/@value">cloth</set>
+	<set xpath="/materials/material[@id='Mfurniture']/property[@name='damage_category']/@value">cloth</set>
+	<set xpath="/materials/material[@id='MCardboardLoot']/property[@name='damage_category']/@value">cloth</set>
+	<set xpath="/materials/material[@id='Mmetal_cloth']/property[@name='damage_category']/@value">cloth</set>
+	<set xpath="/materials/material[@id='MCardboardLootStable']/property[@name='damage_category']/@value">cloth</set>
+	
+	<!--<set xpath="/materials/material[@id='Mcactus']/property[@name='MaxDamage']/@value">50</set>-->
+	<set xpath="/materials/material[@id='Mcactus']/property[@name='damage_category']/@value">plant</set>
+	<set xpath="/materials/material[@id='Mplants']/property[@name='damage_category']/@value">plant</set>
+	<set xpath="/materials/material[@id='Mleaves']/property[@name='damage_category']/@value">plant</set>
+	<set xpath="/materials/material[@id='MleavesStable']/property[@name='damage_category']/@value">plant</set>
+	<set xpath="/materials/material[@id='Mhay']/property[@name='damage_category']/@value">plant</set>
+</config>

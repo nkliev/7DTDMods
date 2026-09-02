@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,KeepLoaded,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+xuiPlayGame,UI,Menu,x,,,Play,,Spiel starten,Jugar partida,Jouer au jeu,Gioca partita,ゲーム開始,게임 플레이,Zagraj w grę,Jogar,Играть,Oyunu Oyna,开始游戏,開始遊戲
+xuiEditingTools,UI,XUI,x,,,Tools,,Bearbeitungswerkzeuge,Herramientas de edición,Outils de modification,Strumenti di modifica,編集ツール,편집 도구,Narzędzia do edycji,Ferramentas de edição,Инструменты,Düzenleme Araçları,编辑工具,編輯工具

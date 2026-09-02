@@ -1,0 +1,4 @@
+<config>
+	<set xpath="//passive_effect[@name='CarryCapacity' and @value='1,2,3,4,5,10']/@value">3,5,7,10,13,16</set>
+	<set xpath="//display_value[@name='dCarryCapacity' and @value='1,2,3,4,5,10']/@value">3,5,7,10,13,16</set>
+</config>

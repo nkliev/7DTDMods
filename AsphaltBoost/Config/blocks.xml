@@ -1,0 +1,5 @@
+<config>
+	<append xpath="/blocks/block[@name='terrAsphalt']"><!-- or @name='terrGravel'-->
+		<property name="BuffsWhenWalkedOn" value="buffAsphaltBoostStart"/>
+	</append>
+</config>

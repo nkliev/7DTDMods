@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+    <append xpath="vehicles/vehicle[@name='vehicleBicycle']">
+		<property class="seat1">
+			<property name="class" value="Seat"/>
+			<property name="pose" value="31"/>
+			<property name="position" value="0, 0, 2"/>
+			<property name="rotation" value="0, 0, 0"/>
+			<property name="exit" value="-.8,0,0 ~ .8,0,0 ~ 0,0,-1.4 ~ 0,0,1.4 ~ 0,1.5,0"/>
+		</property>
+	</append>
+</configs>

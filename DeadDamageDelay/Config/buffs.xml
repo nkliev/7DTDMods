@@ -1,0 +1,11 @@
+<config>
+	<append xpath="/buffs">
+		<buff name="buffdeathprotection" hidden="true" remove_on_death="false">
+			<stack_type value="replace"/>
+			<effect_group>
+				<requirement name="EntityTagCompare" target="other" tags="player"/>
+				<passive_effect name="GeneralDamageResist" operation="base_set" value="1"/>
+			</effect_group>
+		</buff>
+	</append>
+</config>

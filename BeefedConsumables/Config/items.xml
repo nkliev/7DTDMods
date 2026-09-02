@@ -1,0 +1,19 @@
+<config>
+	<setattribute xpath="/items/item[@name='drugVitamins']/effect_group[1]/triggered_effect[@operation='set']" name="value">3603</setattribute>
+	<setattribute xpath="/items/item[@name='drugVitamins']/effect_group[1]/triggered_effect/requirement" name="value">3603</setattribute>
+	
+	<remove xpath="/items/item[@name='drugAtomJunkies']/effect_group[1]/display_value[@name='dExBlockDamage']"/>
+	<remove xpath="/items/item[@name='drugAtomJunkies']/effect_group[1]/display_value[@name='dExEntityDamage']"/>
+	<append xpath="/items/item[@name='drugAtomJunkies']/effect_group[1]">
+		<display_value name="dExRadius" value=".5"/>
+	</append>
+	<setattribute xpath="/items/item[@name='drugHealthBar']/effect_group[1]/display_value[@name='dMaxHealthBonus']" name="value">.25</setattribute>
+	<append xpath="/items/item[@name='drugHealthBar']/effect_group[1]">
+		<display_value name="dHealthLoss" value=".1"/>
+	</append>
+	<setattribute xpath="/items/item[@name='drugHealthBar']/effect_group[1]/triggered_effect[@cvar='$buffDrugHealthBarDuration' and @value='1083']" name="value">3603</setattribute>
+	<setattribute xpath="/items/item[@name='drugHealthBar']/effect_group[1]/triggered_effect/requirement" name="value">3603</setattribute>
+	<append xpath="/items/item[@name='drugNerdTats']/effect_group[1]">
+		<display_value name="dCraftingTime" value="-.5"/>
+	</append>
+</config>

@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+shapebillboardStrong,shapes,Block,,,Sheet (Strong),,Blech,Hoja,Tôle,Pannello,シート,시트,Arkusz,Parte,Кусок (Сильный),Levha,片,片,Hoja
+shapebillboard2mStrong,shapes,Block,,,Sheet 2m (Strong),,Blech 2 m,Hoja 2 m,Tôle 2 m,Pannello 2 m,シート2m,시트 2m,Arkusz – 2 m,Parte de 2 m,Кусок 2 м (Сильный),Levha 2 m,片 2米,2 米片,Hoja 2 m
+shapebillboardCenteredStrong,shapes,Block,,,Sheet Centered (Strong),,Blech – mittig,Hoja centrada,Tôle centrée,Pannello centrato,シート（中心）,시트 중앙,Arkusz – wyśrodkowanie,Parte centralizada,Центрованный кусок (Сильный),Levha Ortalı,片 居中,片中心,Hoja centrada
+shapebillboardHalfStrong,shapes,block,,,1/2 Sheet (Strong),,1/2-Eisenblech,1/2 hoja de hierro,1/2 tôle,1/2 pannello,1/2シート,1/2 시트,Arkusz – 1/2,1/2 parte,1/2 куска (Сильный),1/2 Levha,1/2 片,1/2 片,1/2 hoja de hierro
+shapebillboardQuarterStrong,shapes,block,,,1/4 Sheet (Strong),,1/4-Eisenblech,1/4 hoja,1/4 tôle,1/4 pannello,1/4シート,1/4 시트,Arkusz – 1/4,1/4 parte,1/4 куска (Сильный),1/4 Levha,1/4平面,1/4片,1/4 hoja

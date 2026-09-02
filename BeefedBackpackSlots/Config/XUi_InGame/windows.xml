@@ -1,0 +1,15 @@
+<config>
+	<setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']" name="cols">12</setattribute>
+	<setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']" name="rows">6</setattribute>
+	<setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']" name="cell_width">50</setattribute>
+	<setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']" name="cell_height">50</setattribute>
+	
+	<setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']/item_stack" name="cell_size">50</setattribute>
+	
+	<setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']" name="width">605</setattribute><!--cell_width*cols+2-->
+	<setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']" name="height">304</setattribute><!--cell_height*rows+1-->
+	
+	
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@rows">12</set>
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@cols">10</set>
+</config>

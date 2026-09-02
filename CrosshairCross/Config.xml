@@ -1,0 +1,6 @@
+<Config>
+    <Color r="0" g="255" b="0"/>
+    <Size>4</Size>
+    <Thickness>1</Thickness>
+    <Dot>true</Dot>
+</Config>
