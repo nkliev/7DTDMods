@@ -1,0 +1,14 @@
+<config>
+	<append xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular' or @name='EntityLootContainerNurse' or @name='EntityLootContainerLab' or @name='EntityLootContainerUtility' or @name='EntityLootContainerSoldier' or @name='EntityLootContainerThug']">
+		<property name="NavObject" value="LootContainerRegular"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']">
+		<property name="NavObject" value="LootContainerStrong"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']">
+		<property name="NavObject" value="LootContainerBoss"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='EntityLootContainerPlague']">
+		<property name="NavObject" value="LootContainerGold"/>
+	</append>
+</config>

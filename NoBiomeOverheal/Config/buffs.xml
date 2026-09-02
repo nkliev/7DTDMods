@@ -1,0 +1,6 @@
+<config>
+	<!--_Storm_Stage02-->
+	<append xpath="/buffs/buff[starts-with(@name,'buff') and contains(@name,'_Hazard02')]/effect_group[1]">
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="set" value="0"/>
+	</append>
+</config>

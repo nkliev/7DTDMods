@@ -1,0 +1,3 @@
+<config>
+	<setattribute xpath="/items/item[@name='meleeToolBlockReplaceTool' or @name='meleeToolPaintTool']/property[starts-with(@class,'Action')]/property[@name='Delay']" name="value">.05</setattribute>
+</config>

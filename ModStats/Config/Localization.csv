@@ -1,0 +1,47 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,russian
+statEffectiveRange,ui_display,Item stat,,,Effective Range,Эффективная дальность
+statDamageFalloffRange,ui_display,Item stat,,,Damage Falloff Range,Дальность падения урона
+
+statSpreadMultiplierHip,ui_display,Item stat,,,"Hip Spread","Разброс от бедра"
+statSpreadMultiplierAiming,ui_display,Item stat,,,"Aiming Spread","Разброс при прицеливании"
+statSpreadMultiplierAimingRifleArchery,ui_display,Item stat,,,"Aiming Spread (Rifle, Archery)","Разброс при прицеливании (винтовки, стрелы)"
+statRecoilVertical,ui_display,Item stat,,,Vertical Recoil,Вертикальная отдача
+statRecoilHorizontal,ui_display,Item stat,,,Horizontal Recoil,Горизонтальная отдача
+statWeaponHandlingHip,ui_display,Item stat,,,Hip Weapon Handling,Владение оружием от бедра
+statZoomOut,ui_display,Item stat,,,Min Zoom,Минимальное приближение
+statZoomIn,ui_display,Item stat,,,Max Zoom,Максимальное приближение
+statEntityDamageRangedUrbanCombatNotCompleted,ui_display,Item stat,,,Ranged Damage (Urban Combat Not Completed),"Урон от оружия дальнего боя (Бой в городских условиях не завершено)"
+statIncrementalSpreadMultiplier,ui_display,Item stat,,,Spray Spread,Разброс при длинных очередях
+statWeaponHandlingAiming,ui_display,Item stat,,,Aiming Weapon Handling,Владение оружием в прицеле
+statEntityDamageAimingSniper,ui_display,Item stat,,,Aiming Ranged Damage (Sniper Vol 1),"Урон от оружия дальнего боя в прицеле (Снайпер, том 1)"
+statBurstRoundCount,ui_display,Item stat,,,Burst Count,Длина очереди
+statSpreadMultiplierWalking,ui_display,Item stat,,,Walking Spread,Разброс при ходьбе
+statRecoil,ui_display,Item stat,,,Recoil,Отдача
+statSpread,ui_display,Item stat,,,Spread,Разброс
+statSpreadVertical,ui_display,Item stat,,,Vertical Spread,Вертикальный разброс
+statSpreadHorizontal,ui_display,Item stat,,,Horizontal Spread,Горизонтальный разброс
+statSpreadMultiplierCrouching,ui_display,Item stat,,,Crouch Spread,Разброс сидя
+statKnockDownOnChargedHit,ui_display,Item stat,,,Knockdown On Charged Hit,Сбивает с ног при заряженном ударе
+statStaminaChangeOTWalking,ui_display,Item stat,,,Walking Stamina /s,Выносливость при ходьбе /с
+statStaminaChangeOTRunning,ui_display,Item stat,,,Running Stamina /s,Выносливость при беге /с
+statNoiseMultiplier,ui_display,Item stat,,,Noise,Шум
+statDysenteryResistance,ui_display,Item stat,,,Dysentery Resistance,Защита от дизентерии
+statMurkyWaterConsumtionPenalty,ui_display,Item stat,,,Murky Water Damage,Урон от мутной воды
+statBarteringSell,ui_display,Item stat,,,Bartering (Selling),Обмен (продажа)
+statLightIntensity,ui_display,Item stat,,,Light Intensity,Яркость света
+statVehicleMotorTorquePer,ui_display,Item stat,,,Motor Torque,Мощность двигателя
+statVehicleVelocityMaxPer,ui_display,Item stat,,,Max Velocity,Максимальная скорость
+statVehicleSeats,ui_display,Item stat,,,Seats,Места
+statVehicleEntityDamage,ui_display,Item stat,,,Collision Damage,Урон при столкновении
+statVehicleBlockDamage,ui_display,Item stat,,,Block Collision Damage,Урон по блоку при столкновении
+statVehicleStrongSelfDamage,ui_display,Item stat,,,Self Collision Damage,Урон по транспорту при столкновении
+statVehicleStorageRow,ui_display,Item stat,,,Storage Row,Ряд хранилища
+statDroneArmor,ui_display,Item stat,,,Drone Armor,Броня дрона
+statDroneStorageRow,ui_display,Item stat,,,Storage Row,Ряд хранилища
+statDroneHeadlamp,ui_display,Item stat,,,Has Flashlight,Имеет фонарик
+statDroneMedic,ui_display,Item stat,,,Has Auto-Heal,Имеет авто-лечение
+statEntityDamageRadiated,ui_display,Item stat,,,Elite Zombie Damage,Урон по элитным зомби
+statLootStage,ui_display,Item stat,,,Loot Stage Bonus,Бонус уровня добычи
+statScavengingTime,ui_display,Item stat,,,Loot Time,Время добычи
+statLootStageMultiplier,ui_display,Item stat,,,Loot Stage Multiplier,Множитель уровня добычи
+statEntityDamageRangedUrbanCombatCompleted,ui_display,Item stat,,,Ranged Damage (Urban Combat Completed),"Урон от оружия дальнего боя (Бой в городских условиях, завершение)"

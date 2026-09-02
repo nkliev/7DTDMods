@@ -1,0 +1,3 @@
+<config>
+<append xpath="//book[@name='perkArtOfMiningPallets']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,resourceClayLumpBundle,resourceCrushedSandBundle,resourceYuccaFibersBundle</append>
+</config>

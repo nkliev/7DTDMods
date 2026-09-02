@@ -1,0 +1,7 @@
+<Config>
+    <Key>Keypad0</Key>
+    <KeyCraft>KeypadPeriod</KeyCraft>
+    <SortAfterStacking>true</SortAfterStacking>
+    <PlaySound>true</PlaySound>
+    <Distance>10</Distance>
+</Config>

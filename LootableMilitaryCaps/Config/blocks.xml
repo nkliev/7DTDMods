@@ -1,0 +1,10 @@
+<config>
+	<append xpath="/blocks/block[starts-with(@name,'palletCartonMilitary') and not(contains(@name,'Base'))]">
+		<property name="Class" value="CompositeTileEntity" />
+		<property class="CompositeFeatures">
+			<property class="TEFeatureStorage">
+				<property name="LootList" value="ammoPileSmall" />
+			</property>
+		</property>
+	</append>
+</config>

@@ -1,0 +1,4 @@
+<config>
+	<remove xpath="/entity_classes/entity_class[starts-with(@name,'animal')]/property[@name='LootDropEntityClass']"/>
+	<remove xpath="/entity_classes/entity_class[starts-with(@name,'animal')]/property[@name='LootDropProb']"/>
+</config>

@@ -1,0 +1,53 @@
+<configs>
+	<remove xpath="/items/item[@name='meleeToolSalvageT1Wrench' or @name='meleeToolSalvageT2Ratchet' or @name='meleeToolSalvageT3ImpactDriver']/effect_group[1]/passive_effect[@name='DamageModifier']"/>
+	<append xpath="/items/item[@name='meleeToolSalvageT1Wrench' or @name='meleeToolSalvageT2Ratchet' or @name='meleeToolSalvageT3ImpactDriver']/effect_group[1]">
+		<!-- as of v2.2 b3
+			Mine
+			Mine1
+			Mine2
+			Mine3
+			Mine4
+			air
+			barrelExplosive
+			buriedTreasure
+			!challenge_cars
+			!challenge_elec_parts
+			challenge_farming
+			challenge_gore
+			challenge_leather
+			!challenge_mech_parts
+			challenge_pallet
+			challenge_polymers
+			!challenge_sinks
+			!challenge_steel
+			challenge_stump
+			coalBurnedDmg
+			deepOre
+			door
+			electricianSkill
+			landclaim
+			lockedSafe
+			ore
+			perkBookworm
+			!safes
+			seedSkill
+			surfaceOre
+			terrAsphalt
+			terrGravel
+			timecharge
+			trapsSkill
+			trashPile
+			treasureHunter
+			twitchHordeStone
+			twitchReplace
+			twitch_workstation
+			wood
+			workstationSkill
+		-->
+		<passive_effect name="DamageModifier" operation="perc_subtract" value=".75" tags="challenge_cars,challenge_elec_parts,challenge_mech_parts,challenge_sinks,challenge_steel,safes" invert_tag_check="true"/>
+		<passive_effect name="DamageModifier" operation="perc_subtract" value=".05" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_subtract" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_subtract" value=".1" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_subtract" value=".2" tags="earth"/>
+	</append>
+</configs>

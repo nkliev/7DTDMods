@@ -1,0 +1,3 @@
+<config>
+	<setattribute xpath="/items/item[@name='armorRogueHelmet']/effect_group[1]/display_value[@name='dLootStage']" name="name">dLootStagePerc</setattribute>
+</config>

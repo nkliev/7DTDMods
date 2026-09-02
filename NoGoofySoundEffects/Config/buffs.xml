@@ -1,0 +1,3 @@
+<config>
+	<remove xpath="/buffs/buff[not(@name='buffInjuryBleeding') and not(@name='buffPlayerFallingDamage') and not(@name='buffShocked')]//triggered_effect[@action='PlaySound' and not(starts-with(@sound,'player')) or @sound='player#smell' and not(@sound='buff_stunned') and not(@sound='buff_geiger_counter')]"/>
+</config>
