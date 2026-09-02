@@ -1,5 +1,0 @@
-<config>
-	<append xpath="/blocks/block[starts-with(@name,'cntToilet')]">
-		<property name="BuffsWhenWalkedOn" value="buffOnToilet"/>
-	</append>
-</config>

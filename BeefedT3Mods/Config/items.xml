@@ -1,4 +1,0 @@
-<config>
-<append xpath="/items/item[@name='gunHandgunT3SMG5' or @name='gunMGT3M60']/property[@name='Tags']/@value">,stock</append>
-<append xpath="/items/item[@name='gunMGT3M60']/property[@name='Tags']/@value">,firingMode</append>
-</config>

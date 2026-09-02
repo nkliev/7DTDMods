@@ -1,7 +1,0 @@
-<config>
-	<setattribute xpath="/entity_classes/entity_class[starts-with(@name,'zombieScreamer')]/property[@name='Tags']" name="value">entity,zombie,walker,perkAT05</setattribute>
-	<append xpath="/entity_classes/entity_class[starts-with(@name,'zombieScreamer')]">
-		<property name="TrackerIcon" value="ui_game_symbol_marksmanship"/>
-		<property name="NavObject" value="twitch_spawn,twitch_spawn_other,clear_sleeper,animaltracking_screamer"/>
-	</append>
-</config>

@@ -1,3 +1,0 @@
-<config>
-	<append xpath="/items/item[starts-with(@name,'meleeToolShovel')]/property[@name='Tags']/@value">,miningTool</append>
-</config>

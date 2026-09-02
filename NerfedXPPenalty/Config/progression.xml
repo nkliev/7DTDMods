@@ -1,4 +1,0 @@
-<config>
-	<remove xpath="//passive_effect[@name='PlayerExpGain' and @operation='perc_add' and @value='-.05']"/>
-	<setattribute xpath="//passive_effect[@name='PlayerExpGain' and @operation='perc_add' and @value='-.1,-.4']" name="value">-0.075,-0.325</setattribute>
-</config>

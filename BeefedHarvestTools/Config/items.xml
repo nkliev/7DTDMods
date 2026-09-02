@@ -1,5 +1,0 @@
-<config>
-	<append xpath="/items/item[(starts-with(@name, 'meleeToolRepairT0') or (starts-with(@name, 'meleeWpnBlade') or starts-with(@name, 'meleeWpnBaton') or @name='meleeToolAxeT1IronFireaxe' or @name='meleeToolAxeT2SteelAxe')) and not (contains(@name, 'Parts')) and not (contains(@name, 'Schematic'))]/effect_group[1]">
-		<passive_effect name="DamageModifier" operation="base_add" value="150" tags="cloth,plant"/>
-	</append>
-</config>

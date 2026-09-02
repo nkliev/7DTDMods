@@ -1,3 +1,0 @@
-<config>
-	<remove xpath="//triggered_effect[@action='PlaySound']"/>
-</config>

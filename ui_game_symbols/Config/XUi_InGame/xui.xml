@@ -1,7 +1,0 @@
-<config>
-    <append xpath="/xui">
-        <window_group name="ui_game_symbols">
-            <window name="ui_game_symbols"/>
-        </window_group>
-    </append>
-</config>

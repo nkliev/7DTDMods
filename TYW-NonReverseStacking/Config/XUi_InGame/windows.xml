@@ -1,4 +1,0 @@
-<config>
-	<!-- bottom_left...left? -->
-	<setattribute xpath="/windows/window[@name='windowBackpack']//rect[@controller='ContainerStandardControls']" name="move_start_bottom_left">false</setattribute>
-</config>

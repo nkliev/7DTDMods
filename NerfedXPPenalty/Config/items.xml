@@ -1,3 +1,0 @@
-<config>
-	<remove xpath="//passive_effect[@name='PlayerExpGain' and (@value='-.1' or @value='-.3')]"/>
-</config>

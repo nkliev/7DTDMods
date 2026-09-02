@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-    <Name value="SaneCraftingTimes" />
-    <DisplayName value="Wardens sane resource and ammo crafting times" />
-    <Version value="1.0.0" />
-    <Description value="Gives ammo and resources a sane crafting duration so you dont spend your entire playthrough waiting" />
-    <Author value="Warden Potato" />
-    <Website value="https://www.nexusmods.com/users/31331400" />
-</xml>

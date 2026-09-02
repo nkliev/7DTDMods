@@ -1,5 +1,0 @@
-<config>
-	<setattribute xpath="/buffs/buff[@name='buffSmellGrace']" name="icon_color">255,255,255</setattribute>
-	<setattribute xpath="/buffs/buff[@name='buffSmell']" name="icon_color">255,128,0</setattribute>
-	<setattribute xpath="/buffs/buff[@icon_color='255,175,175']" name="icon_color">255,128,0</setattribute>
-</config>

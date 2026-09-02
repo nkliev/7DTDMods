@@ -1,7 +1,0 @@
-<config>
-	<append xpath="/entity_classes/entity_class[starts-with(@name,'animal')]">
-		<effect_group>
-			<triggered_effect trigger="onSelfDied" action="AddBuff" target="self" buff="buffdeathprotection"/>
-		</effect_group>
-	</append>
-</config>

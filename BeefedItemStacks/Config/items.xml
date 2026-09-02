@@ -1,4 +1,0 @@
-<config>
-	<setattribute xpath="/items/item[@name='toolCookingGrill' or @name='toolCookingPot' or @name='toolBeaker' or @name='resourceRadiator' or @name='smallEngine']/property[@name='Stacknumber']" name="value">50</setattribute>
-	<setattribute xpath="/items/item[contains(@name,'Bundle') and starts-with(@name,'resource') and not (starts-with(@name,'ammo') or starts-with(@name,'quest'))]/property[@name='Stacknumber']" name="value">15</setattribute>
-</config>

@@ -1,3 +1,0 @@
-<config>
-	<remove xpath="//browsergameoptioninfo[@name='IP' or @name='Port']"/>
-</config>

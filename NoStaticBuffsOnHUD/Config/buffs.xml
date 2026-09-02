@@ -1,5 +1,0 @@
-<config>
-	<setattribute xpath="/buffs/buff[contains(@name,'SetBonus') or @name='buffPerkCharismaticNature' or @name='buffShowQuestLimitReached' or @name='buffNewbieCoat' or @name='buffSmellGrace' or @name='buffSmell' or @name='buffInfectionImmunity' or @name='buffJunkDroneSupportEffect']" name="showonhud">false</setattribute>
-	<remove xpath="//triggered_effect[@action='ShowToolbeltMessage']"/>
-	<removeattribute xpath="//buff/@tooltip_key" />
-</config>

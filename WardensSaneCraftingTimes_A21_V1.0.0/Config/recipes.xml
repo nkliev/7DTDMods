@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<config>
-    <setattribute xpath="/recipes/recipe[(starts-with(@name,'resource') or starts-with(@name,'ammo')) and @craft_time>30]" name="craft_time">30</setattribute>
-    <setattribute xpath="/recipes/recipe[(starts-with(@name,'resource') or starts-with(@name,'ammo')) and not(@craft_time)]" name="craft_time">1</setattribute>
-</config>

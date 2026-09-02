@@ -1,7 +1,0 @@
-<config>
-<append xpath="/items/item[contains(@name, 'gunShotgun')]/effect_group">
-<passive_effect name="ModPowerBonus" operation="perc_add" value="0.34" tags="MaxRange,DamageFalloffRange"/>
-</append>
-<!--<setattribute xpath="/items/item[@name='gunShotgunT0PipeShotgun']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_add']" name="value">-1.5</setattribute>
-<setattribute xpath="/items/item[@name='gunShotgunT0PipeShotgun']/effect_group/passive_effect[@name='EntityDamage' and @operation='perc_add']" name="value">.2,.7</setattribute>-->
-</config>

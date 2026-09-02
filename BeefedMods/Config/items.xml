@@ -1,5 +1,0 @@
-<config>
-	<append xpath="/items/item[starts-with(@name,'gun') and not (contains(@name,'Parts')) and not (starts-with(@name,'gunBow')) or (@name='gunBotT2JunkTurret')]/property[@name='Tags']/@value">,firingModeSemi</append>
-	<append xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='Tags']/@value">,modGunShotgunTubeExtenderMagazine</append>
-	<setattribute xpath="/items/item[@name='ammoShotgunSlug']/effect_group/passive_effect[@name='SpreadMultiplierAiming']" name="value">-.25</setattribute>
-</config>

@@ -1,5 +1,0 @@
-<config>
-	<remove xpath="/windows/window[@name='windowEntering']"/>
-	<remove xpath="/windows/window[@name='windowLocation']/sprite[@name='Background']"/>
-	<remove xpath="/windows/window[@name='windowLocation']/sprite[@name='backgroundMain']"/>
-</config>
