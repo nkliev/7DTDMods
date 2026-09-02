@@ -1,0 +1,3 @@
+<config>
+	<remove xpath="/templates/item_stack/rect/sprite[@name='quickswapIcon']"/>
+</config>

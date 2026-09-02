@@ -1,0 +1,13 @@
+<Config>
+    <Blocks>
+        <Block>cntLootChestHeroInsecureT1</Block>
+        <Block>cntLootChestHeroInsecureT2</Block>
+        <Block>cntLootChestHeroInsecure</Block>
+        <Block>cntHardenedChestInsecure</Block>
+        <Block>cntHardenedChestInsecureT5</Block>
+    </Blocks>
+    <IconName>ui_game_symbol_x</IconName>
+    <PlaceOnPoiCenter>false</PlaceOnPoiCenter>
+    <AddPoiTierToName>true</AddPoiTierToName>
+    <AddPoiTranslatedName>false</AddPoiTranslatedName>
+</Config>

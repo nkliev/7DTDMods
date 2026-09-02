@@ -1,0 +1,6 @@
+<config>
+	<remove xpath="/ui_display_info/item_display/item_display_info[starts-with(@display_type,'ranged')]/display_entry[@name='DegradationMax']"/>
+	<append xpath="/ui_display_info/item_display/item_display_info[starts-with(@display_type,'ranged') or @display_type='motorTool' or @display_type='rangedRepairTool']">
+		<display_entry name="dRecoilPattern" title_key="statRecoil" display_type="Bool"/><!--display_type doesnt matter but is required to avoid errors-->
+	</append>
+</config>

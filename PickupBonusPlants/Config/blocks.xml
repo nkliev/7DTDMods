@@ -1,0 +1,16 @@
+<config>
+	<append xpath="/blocks/block[starts-with(@name,'planted') and (contains(@name,'3Harvest') or contains(@name,'Dead')) and not(contains(@name,'Snowberry')) or starts-with(@name,'mushroom') and not(starts-with(@name,'plantedMushroom'))]">
+		<property name="Class" value="PlantGrowing"/>
+		<property name="CanPickup" value="true"/><!--block literally do not call OnBlockActivated if the block doesnt have any activation commands so this is required-->
+		<!--this specific class is overwritten with a patch btw so its all good-->
+	</append>
+	<append xpath="/blocks/block[starts-with(@name,'plantedCorn') and contains(@name,'Dead')]">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+	</append>
+	<!--<setattribute xpath="//drop[@event='Destroy' and @name='resourceYuccaFibers']" name="event">Harvest</setattribute>--><!--never touch Destroy variables. causes poi blocks to drop-->
+	<setattribute xpath="//drop[(@event='Harvest' or @event='Destroy') and @name='resourceYuccaFibers']" name="tag">wildCropsHarvest</setattribute>
+	<append xpath="/blocks/block[@name='plantedCorn2Deco']">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<drop event="Harvest" name="resourceYuccaFibers" count="3,12" tag="wildCropsHarvest"/>
+	</append>
+</config>

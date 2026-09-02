@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TYW-NonReverseStacking" />
+	<DisplayName value="NonReverseStacking" />
+	<Description value="Keep the order of items after TakeAll-MoveAll." />
+	<Author value="tyw" />
+	<Version value="0.1" />
+	<Website value="" />
+</xml>

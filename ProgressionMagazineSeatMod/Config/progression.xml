@@ -1,0 +1,4 @@
+<config>
+	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[2]/unlock_entry/@item">,modVehicleExpandedSeat</append>
+	<append xpath="//crafting_skill[@name='craftingVehicles']/effect_group/passive_effect[@name='RecipeTagUnlocked'][2]/@tags">,modVehicleExpandedSeat</append>
+</config>

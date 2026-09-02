@@ -1,0 +1,16 @@
+<config>
+	<!--upper quest tier limit-->
+	<remove xpath="/quests/quest_list[@id='trader_rekt_quests']/quest[not(starts-with(@id,'intro')) and not(contains(@id,'nexttrader')) and not(starts-with(@id,'tier1'))]"/>
+	<remove xpath="/quests/quest_list[@id='trader_jen_quests']/quest[not(starts-with(@id,'intro')) and not(contains(@id,'nexttrader')) and not(starts-with(@id,'tier1')) and not(starts-with(@id,'tier2'))]"/>
+	<remove xpath="/quests/quest_list[@id='trader_bob_quests']/quest[not(starts-with(@id,'intro')) and not(contains(@id,'nexttrader')) and not(starts-with(@id,'tier1')) and not(starts-with(@id,'tier2')) and not(starts-with(@id,'tier3'))]"/>
+	<remove xpath="/quests/quest_list[@id='trader_hugh_quests']/quest[not(starts-with(@id,'intro')) and not(contains(@id,'nexttrader')) and not(starts-with(@id,'tier1')) and not(starts-with(@id,'tier2')) and not(starts-with(@id,'tier3')) and not(starts-with(@id,'tier4'))]"/>
+	<!--if there are no quests available opening trader dialog throws an error.-->
+	<append xpath="/quests/quest_list[@id='trader_rekt_quests' or @id='trader_jen_quests' or @id='trader_bob_quests' or @id='trader_hugh_quests' or @id='trader_joel_quests']">
+		<quest id="tier1_clear" start="65535" end="65535"/>
+		<quest id="tier2_clear" start="65535" end="65535"/>
+		<quest id="tier3_clear" start="65535" end="65535"/>
+		<quest id="tier4_clear" start="65535" end="65535"/>
+		<quest id="tier5_clear" start="65535" end="65535"/>
+		<quest id="tier6_clear" start="65535" end="65535"/>
+	</append>
+</config>
