@@ -10,6 +10,8 @@
 	<setattribute xpath="/items/item[@name='drugHealthBar']/effect_group[1]/display_value[@name='dMaxHealthBonus']" name="value">.25</setattribute>
 	<append xpath="/items/item[@name='drugHealthBar']/effect_group[1]">
 		<display_value name="dHealthLoss" value=".1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="25"/>
+		<!--<display_value name="foodHealthAmount" value="25"/>-->
 	</append>
 	<setattribute xpath="/items/item[@name='drugHealthBar']/effect_group[1]/triggered_effect[@cvar='$buffDrugHealthBarDuration' and @value='1083']" name="value">3603</setattribute>
 	<setattribute xpath="/items/item[@name='drugHealthBar']/effect_group[1]/triggered_effect/requirement" name="value">3603</setattribute>

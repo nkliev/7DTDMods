@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ModelFOV" />
+	<DisplayName value="Model FOV (no screen-effect distortion)" />
+	<Description value="Set the first-person held-item model FOV to any value via console command 'modelfov'. Keeps frost/heat/radiation screen effects undistorted. V3.0." />
+	<Author value="community" />
+	<Version value="1.7.0.0" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>
