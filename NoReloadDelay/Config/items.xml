@@ -1,0 +1,5 @@
+<config>
+	<append xpath="/items/item[@name='gunShotgunT0PipeShotgun' or @name='gunRifleT0PipeRifle' or @name='gunRifleT1HuntingRifle' or @name='gunExplosivesT3RocketLauncher' or (starts-with(@name,'gunBow') and contains(@name,'Crossbow'))]/property[@class='Action0']"><!--NOTE TO SELF: its Crossbow, not crossbow. xpath is case sensitive-->
+		<property name="RapidTrigger" value="true"/>
+	</append>
+</config>
