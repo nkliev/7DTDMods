@@ -1,3 +1,4 @@
 <config>
     <setattribute xpath="/templates/mainmenubutton/label" name="pivot">center</setattribute>
+    <remove xpath="/templates/mainmenubutton/label/sprite"/>
 </config>

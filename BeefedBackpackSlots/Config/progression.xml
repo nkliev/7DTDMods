@@ -1,3 +1,0 @@
-<config>
-	<set xpath="/progression/perks/book[@name='perkFiremansAlmanacComplete' or @name='perkNightStalkerThiefAdrenaline']/effect_group/passive_effect[@name='CarryCapacity']/@value">24</set>
-</config>
