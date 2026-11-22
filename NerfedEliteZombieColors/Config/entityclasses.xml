@@ -1,0 +1,5 @@
+<config>
+	<setattribute xpath="/entity_classes/color[@name='radiated']" name="value">0.16,0.7,0.16,1.2</setattribute>
+	<setattribute xpath="/entity_classes/color[@name='charged']" name="value">0.1,0.3,1.0,0.8</setattribute>
+	<setattribute xpath="/entity_classes/color[@name='infernal']" name="value">0.7,0.1,0.1,0.9</setattribute>
+</config>
